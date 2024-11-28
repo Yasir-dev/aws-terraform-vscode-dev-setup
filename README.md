@@ -101,7 +101,7 @@ provider "aws" {
 }
 ```
 
-### Create SSH Key and add it the `aws_key_pair``
+### Create SSH Key and add it the `aws_key_pair`
 
 Update the path to your public SSH key in the `aws_key_pair` resource in [`main.tf`](main.tf):
 
@@ -161,6 +161,8 @@ Press `Shift + Command + P`
 Select ec2 instance IP
 
 ![remote ssh host ip](images/remote-ssh-host-ip.png)
+
+This will open a new window of VSCode with the project view of your remote Ubuntu server
 
 You can also find the IP with theses commands:
 

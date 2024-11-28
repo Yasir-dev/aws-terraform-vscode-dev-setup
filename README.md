@@ -169,10 +169,6 @@ terraform state list
 ```
 
 ```
-terraform state list
-```
-
-```
 terraform state show aws_instance.dev_instance | grep public_ip 
 ```
 
